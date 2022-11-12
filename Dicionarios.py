@@ -1,3 +1,6 @@
+# Nas listas e tuplas acessamos os dados por meio dos índices. Já nos dicionários, o acesso aos dados é feito por meio da chave associada a eles. 
+# Para adicionar elementos num dicionário basta associar uma nova chave ao objeto e dar um valor a ser associado a ela.
+
 meu_dicionario = {"A": "AMEIXA", "B": "BOLA", "C": "CACHORO"}
 #imprimindo indice dicionario 
 print(meu_dicionario["C"])
@@ -16,4 +19,3 @@ for i in meu_dicionario.values():
 #retorna só chave
 for i in meu_dicionario.keys():
     print(i)
-
